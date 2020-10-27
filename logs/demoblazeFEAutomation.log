@@ -1,0 +1,21 @@
+2020-10-27 10:11:41 INFO  DemoBlazeFrontEndAutomation:28 - ************* Started Test case TestPurchaseLaptop ******************* 
+2020-10-27 10:11:41 INFO  DemoBlazeFrontEndAutomation:38 - ************* Validating browser able to launch app url ******************* 
+2020-10-27 10:11:46 INFO  DemoBlazeFrontEndAutomation:41 - ************* Validated browser launched app url ******************* 
+2020-10-27 10:11:46 INFO  DemoBlazeFrontEndAutomation:46 - ************* Validating user is able to add SonyVaioi5 Laptop in cart******************* 
+2020-10-27 10:11:51 INFO  DemoBlazeFrontEndAutomation:53 - ************* Validated user added SonyVaioi5 Laptop in cart******************* 
+2020-10-27 10:11:51 INFO  DemoBlazeFrontEndAutomation:58 - ************* Validating user is able to add Delli78GB Laptop in cart******************* 
+2020-10-27 10:12:00 INFO  DemoBlazeFrontEndAutomation:67 - ************* Validated user added Delli78GB Laptop in cart******************* 
+2020-10-27 10:12:00 INFO  DemoBlazeFrontEndAutomation:72 - ************* Validating user is able to delete Delli78GB Laptop from cart******************* 
+2020-10-27 10:12:09 INFO  DemoBlazeFrontEndAutomation:80 - ************* Validated user deleted Delli78GB Laptop from cart******************* 
+2020-10-27 10:12:09 INFO  DemoBlazeFrontEndAutomation:85 - ************* Validating user is able to click on place order button ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:88 - ************* Validated user clicked on place order button ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:93 - ************* Validating user is able to fill purchase form ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:100 - ************* Validated user filled purchase form ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:105 - ************* Validating user is able to click purchase button ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:107 - ************* Validating clicked purchase button ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:112 - ************* Validating user is able to capture purchase id and amount ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:114 - ************* Validated user captured purchase id and amount ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:119 - ************* Validating purchase amount is equal to expected amount ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:122 - ************* Validated purchase amount is equal to expected amount ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:127 - ************* Validating user is able to click on OK button  ******************* 
+2020-10-27 10:12:10 INFO  DemoBlazeFrontEndAutomation:129 - ************* Validated user clicked on OK button  ******************* 

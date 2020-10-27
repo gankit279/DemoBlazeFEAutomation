@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SamplePOM1" duration-ms="42679" started-at="2020-10-27T04:41:29Z" finished-at="2020-10-27T04:42:12Z">
+    <groups>
+    </groups>
+    <test name="Blaze" duration-ms="42679" started-at="2020-10-27T04:41:29Z" finished-at="2020-10-27T04:42:12Z">
+      <class name="com.blaze.tests.TestPurchaseLaptop">
+        <test-method status="PASS" signature="initSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="initSetUp" is-config="true" duration-ms="11751" started-at="2020-10-27T10:11:29Z" finished-at="2020-10-27T10:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LocalMachine]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetUp -->
+        <test-method status="PASS" signature="initConstr()[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="initConstr" is-config="true" duration-ms="166" started-at="2020-10-27T10:11:41Z" depends-on-methods="com.blaze.tests.BaseTest.initSetUp" finished-at="2020-10-27T10:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConstr -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="8" started-at="2020-10-27T10:11:41Z" finished-at="2020-10-27T10:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.accessDemoBlazeApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="accessDemoBlazeApp()[pri:1, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="accessDemoBlazeApp" duration-ms="4857" started-at="2020-10-27T10:11:41Z" finished-at="2020-10-27T10:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessDemoBlazeApp -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="9" started-at="2020-10-27T10:11:46Z" finished-at="2020-10-27T10:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessDemoBlazeApp status=SUCCESS method=TestPurchaseLaptop.accessDemoBlazeApp()[pri:1, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="1" started-at="2020-10-27T10:11:46Z" finished-at="2020-10-27T10:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.addingSonyVaioi5LaptopToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="addingSonyVaioi5LaptopToCart()[pri:2, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addingSonyVaioi5LaptopToCart" duration-ms="5792" started-at="2020-10-27T10:11:46Z" finished-at="2020-10-27T10:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingSonyVaioi5LaptopToCart -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="1" started-at="2020-10-27T10:11:51Z" finished-at="2020-10-27T10:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addingSonyVaioi5LaptopToCart status=SUCCESS method=TestPurchaseLaptop.addingSonyVaioi5LaptopToCart()[pri:2, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="1" started-at="2020-10-27T10:11:51Z" finished-at="2020-10-27T10:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.addingDelli78GBLatopToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="addingDelli78GBLatopToCart()[pri:3, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addingDelli78GBLatopToCart" duration-ms="8313" started-at="2020-10-27T10:11:51Z" finished-at="2020-10-27T10:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingDelli78GBLatopToCart -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="1" started-at="2020-10-27T10:12:00Z" finished-at="2020-10-27T10:12:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addingDelli78GBLatopToCart status=SUCCESS method=TestPurchaseLaptop.addingDelli78GBLatopToCart()[pri:3, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="1" started-at="2020-10-27T10:12:00Z" finished-at="2020-10-27T10:12:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.deletingDelli78GBLaptopFromCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="deletingDelli78GBLaptopFromCart()[pri:4, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="deletingDelli78GBLaptopFromCart" duration-ms="9690" started-at="2020-10-27T10:12:00Z" finished-at="2020-10-27T10:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingDelli78GBLaptopFromCart -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:09Z" finished-at="2020-10-27T10:12:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletingDelli78GBLaptopFromCart status=SUCCESS method=TestPurchaseLaptop.deletingDelli78GBLaptopFromCart()[pri:4, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="clickPlaceOrder()[pri:5, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="clickPlaceOrder" duration-ms="159" started-at="2020-10-27T10:12:09Z" finished-at="2020-10-27T10:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPlaceOrder -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:09Z" finished-at="2020-10-27T10:12:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.clickPlaceOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="1" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickPlaceOrder status=SUCCESS method=TestPurchaseLaptop.clickPlaceOrder()[pri:5, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="fillPurchaseForm()[pri:6, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="fillPurchaseForm" duration-ms="227" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillPurchaseForm -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.fillPurchaseForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="1" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillPurchaseForm status=SUCCESS method=TestPurchaseLaptop.fillPurchaseForm()[pri:6, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="clickPurchaseForm()[pri:7, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="clickPurchaseForm" duration-ms="130" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPurchaseForm -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.clickPurchaseForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="1" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.capturePurchaseIDAndAmount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickPurchaseForm status=SUCCESS method=TestPurchaseLaptop.clickPurchaseForm()[pri:7, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="capturePurchaseIDAndAmount()[pri:8, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="capturePurchaseIDAndAmount" duration-ms="39" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturePurchaseIDAndAmount -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=capturePurchaseIDAndAmount status=SUCCESS method=TestPurchaseLaptop.capturePurchaseIDAndAmount()[pri:8, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="assertPurchaseAmountEqualsExpected()[pri:9, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="assertPurchaseAmountEqualsExpected" duration-ms="7" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertPurchaseAmountEqualsExpected -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.assertPurchaseAmountEqualsExpected()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="2" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assertPurchaseAmountEqualsExpected status=SUCCESS method=TestPurchaseLaptop.assertPurchaseAmountEqualsExpected()[pri:9, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="clickedOKButton()[pri:10, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="clickedOKButton" duration-ms="123" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickedOKButton -->
+        <test-method status="PASS" signature="addTestResult(java.lang.reflect.Method)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="addTestResult" is-config="true" duration-ms="0" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blaze.tests.TestPurchaseLaptop.clickedOKButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestResult -->
+        <test-method status="PASS" signature="logResultInReport(org.testng.ITestResult)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="logResultInReport" is-config="true" duration-ms="1" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickedOKButton status=SUCCESS method=TestPurchaseLaptop.clickedOKButton()[pri:10, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResultInReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@59f99ea]" name="tearDown" is-config="true" duration-ms="1339" started-at="2020-10-27T10:12:10Z" finished-at="2020-10-27T10:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blaze.tests.TestPurchaseLaptop -->
+    </test> <!-- Blaze -->
+  </suite> <!-- SamplePOM1 -->
+</testng-results>
